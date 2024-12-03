@@ -1,0 +1,30 @@
+.events-slider {
+  --slide-spacing: 1rem;
+  --slide-size: 100%;
+  --slide-height: 19rem;
+}
+
+.slide-wrapper {
+  position: relative;
+  transition: opacity 0.3s ease;
+  transform: translateX(0);
+  will-change: transform;
+}
+
+.slide-content {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .events-slider {
+    --slide-spacing: 2rem;
+    --slide-size: 90%;
+  }
+}
+
+/* Add smooth transition for opacity changes */
+.slide-wrapper {
+  transition: opacity 0.3s ease-in-out;
+}
