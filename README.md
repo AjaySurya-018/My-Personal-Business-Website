@@ -2,8 +2,6 @@
 
 A warm, modern website for J.S.N Raju Seniors' Space — an old age home focused on comfort, community and care. Built with a clean, responsive design and lightweight, maintainable TypeScript code.
 
-![Site demo](/public/assets/videos/demo.gif)
-
 Tech stack
 - TypeScript + React — strong typing and modern UI patterns.
 - Vite — fast development and production builds.
