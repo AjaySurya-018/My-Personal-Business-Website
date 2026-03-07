@@ -33,6 +33,12 @@ const EventsSlider = () => {
       url: '/assets/images/events/temple2.png',
       title: 'Swarnagiri Temple Visit'
     },
+      {
+          type: 'youtube',
+          url: 'https://www.youtube.com/watch?v=_hUk4WqV1CI',
+          thumbnailUrl: `/assets/images/logo/thumbnail_2.jpg`,
+          title: 'Celebrating our 2nd Anniversary'
+      },
     {
       type: 'image',
       url: '/assets/images/events/bday.jpg',
