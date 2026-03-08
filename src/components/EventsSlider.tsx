@@ -28,22 +28,28 @@ const EventsSlider = () => {
       url: '/assets/images/events/GC.jpg',
       title: 'Vinayaka Chavithi Pooja'
     },
+      {
+          type: 'youtube',
+          url: 'https://youtu.be/e4EZofIsS0Y?si=TYhY2nDkwF7laL-7',
+          thumbnailUrl: `/assets/images/logo/thumbnail_anniversary.jpg`,
+          title: 'Celebrating our 1st Anniversary'
+      },
     {
       type: 'image',
       url: '/assets/images/events/temple2.png',
       title: 'Swarnagiri Temple Visit'
     },
-      {
-          type: 'youtube',
-          url: 'https://www.youtube.com/watch?v=_hUk4WqV1CI',
-          thumbnailUrl: `/assets/images/logo/thumbnail_2.jpg`,
-          title: 'Celebrating our 2nd Anniversary'
-      },
     {
       type: 'image',
       url: '/assets/images/events/bday.jpg',
       title: 'Swarajya Laxmi gari Birthday Celebrations'
     },
+      {
+          type: 'youtube',
+          url: 'https://www.youtube.com/watch?v=_hUk4WqV1CI',
+          thumbnailUrl: `/assets/images/logo/thumbnail_2.jpg`,
+          title: '2nd Anniversary and Seniors Care Announcement'
+      },
     {
       type: 'image',
       url: '/assets/images/events/VB.jpg',
