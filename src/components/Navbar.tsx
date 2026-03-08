@@ -32,10 +32,7 @@ const Navbar = () => {
             </a>
             
             <a 
-              href="https://www.google.com/maps/place/JSN+Raju+Seniors+Space/@17.6371912,78.4883646,986m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bcb87003795e0c7:0x79445dae670873d6!8m2!3d17.6371861!4d78.4909395!16s%2Fg%2F11vwpflxgr?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="flex items-center text-gray-600 hover:text-red-600 transition-colors"
+              href="#location" className="flex items-center text-gray-600 hover:text-red-600 transition-colors"
             >
               <MapPin className="h-5 w-5 mr-1 text-red-500" />
               <span className="hidden md:block">Location</span>
